@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+
+    background-color: rgb(21, 21, 23);
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    font-family: Inter, system-ui, sans-serif;
+}
+
+.auth-box {
+    width: 336px;
+
+    display: flex;
+    flex-direction: column;
+
+    gap: 14px;
+}
+
+.brand {
+    color: rgb(86, 134, 254);
+
+    display: flex;
+    justify-content: center;
+
+    margin-bottom: 26px;
+}
+
+.brand svg {
+    display: block;
+}
+
+.auth-input {
+    width: 336px;
+    height: 48px;
+
+    background-color: transparent;
+
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    border-radius: 28px;
+
+    padding: 0 20px 0 16px;
+
+    color: rgb(249, 250, 251);
+
+    font-family: Inter, sans-serif;
+    font-size: 14px;
+
+    outline: none;
+}
+
+.auth-input::placeholder {
+    color: rgb(160, 165, 175);
+}
+
+.legal-text {
+    width: 336px;
+
+    color: rgb(249, 250, 251);
+
+    font-family: Inter, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+.legal-text a {
+    color: rgb(249, 250, 251);
+    font-weight: 400;
+    text-decoration: underline;
+}
+
+.account-links {
+    width: 336px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-top: 8px;
+}
+
+.account-links a {
+    color: rgb(86, 134, 254);
+
+    font-size: 13px;
+    text-decoration: none;
+}
+
+.submit-btn {
+    width: 336px;
+    height: 42px;
+
+    background-color: rgb(86, 134, 254);
+
+    border: none;
+    border-radius: 4096px;
+
+    color: white;
+
+    font-family: Inter, system-ui, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+
+    cursor: pointer;
+}
+
+.provider-links {
+    width: 336px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 10px;
+
+    margin-top: 4px;
+}
+
+.provider-links a {
+    color: rgb(220, 220, 220);
+
+    font-size: 13px;
+    text-decoration: underline;
+}
+
+.provider-links span {
+    color: rgb(100, 100, 100);
+}
+
+.page-footer {
+    position: fixed;
+    bottom: 0;
+
+    display: flex;
+
+    padding: 32px 18px 20px;
+
+    color: rgb(129, 133, 140);
+
+    font-family: Inter, system-ui, sans-serif;
+    font-size: 14px;
+}
